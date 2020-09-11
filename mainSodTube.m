@@ -10,16 +10,16 @@ clear; close all; clc; tic;
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % INITIAL DATA
 
-n        = 80;                       % Minimum particle number
-N        = 5*n;                      % Total particle number
-dx1      = 0.6/(4*n);                % Left  spacial step  
-dx2      = 0.6/n;                    % Right spacial step
-gamma    = 1.4;                      % Gas constant property         
-part     = start(N,dx1,dx2,gamma);   % Particle initial value
-T        = 0.24;                     % Final   time
-t        = 0.0;                      % Initial time
-k        = 0.0;                      % Initial interaction count   
-load('data_2.mat')                   % Analitical Solution
+n        = 80;                            % Minimum particle number
+N        = 5*n;                           % Total particle number
+dx1      = 0.6/(4*n);                     % Left  spacial step  
+dx2      = 0.6/n;                         % Right spacial step
+gamma    = 1.4;                           % Gas constant property         
+part     = preProcess(N,dx1,dx2,gamma);   % Particle initial value
+T        = 0.24;                          % Final   time
+t        = 0.0;                           % Initial time
+k        = 0.0;                           % Initial interaction count   
+load('data_2.mat')                        % Analitical Solution
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % ALPHA PARAMETER VECTOR
