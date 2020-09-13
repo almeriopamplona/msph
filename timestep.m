@@ -21,14 +21,14 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % INPUT:                                                                  %
 %                                                                         %
-% N    : Total particles number                         [int value]       %
-% D    : derivatives os the properties of the particles [struture]        %
-% part : properties of the particles.                   [strutures]       %
-% alpha: SPH paramentet array                           [array]           %
+% N    : Total particles number                                 [int]     %
+% D    : derivatives os the properties of the particles         [struct]  %
+% part : properties of the particles.                           [struct]  %
+% alpha: SPH paramentet array                                   [array]   %
 %                                                                         %
 % OUTPUT: --------------------------------------------------------------- %
 %                                                                         %
-% dt   : Time step                                      [double value]    %
+% dt   : Time step                                              [double]  %
 %                                                                         %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
