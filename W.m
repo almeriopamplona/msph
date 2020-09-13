@@ -6,8 +6,9 @@
 % Date  : 27.12.2018                                                      %
 % E-mail: almeriopamplona@gmail.com                                       %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% DESCRIPTION:                                                            %
 %                                                                         %
-% Description: Subroutine to calculate :                                  %
+% Subroutine to calculate :                                               %
 %              * opt = 1 - cubic spline smoothing kernel                  %
 %              * opt = 2 - gaussian smoothing kernel                      %
 %              * opt = 3 - supergaussian smoothing kernel                 %
