@@ -16,14 +16,14 @@
 %                                                                         %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % INPUT:                                                                  %
-%                                                                         %               %
-% alpha    : SPH paramenters                            [array]           %
-% N        : Total particles number                     [int value]       %                            
-% part     : Particle position                          [struct array]    %
+%                                                                         %
+% N        : Total particles number                              [int]    % 
+% alpha    : SPH paramenters                                     [array]  %                           
+% part     : Particle position                                   [struct] %
 %                                                                         %
 % OUTPUT: --------------------------------------------------------------- %
 %                                                                         %
-% neighbor : Neighbors number and identification        [array]           %
+% neighbor : Neighbors number and identification                 [array]  %
 %                                                                         %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
