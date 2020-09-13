@@ -17,17 +17,17 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % INPUT:                                                                  %
 %                                                                         %
-% N        : Total particles number                        [int value   ] %            
-% dt       : Time step                                     [double value] %     
-% neighbor : Neighbors number and identification           [array       ] %
-% part     : Properties of the particles                   [struct array] %    
-% D        : Derivatives of the properties of the particles[struct array] %    
+% N        : Total particles number                              [int]    %            
+% dt       : Time step                                           [double] %     
+% neighbor : Neighbors number and identification                 [array]  %
+% part     : Properties of the particles                         [struct] %    
+% D        : Derivatives of the properties of the particles      [struct] %    
 %                                                                         %
 % OUTPUT: --------------------------------------------------------------- %
 %                                                                         %
-% x        : Trajetory                                     [array]        %
-% v        : Velocity                                      [array]        %
-% e        : Internal energy                               [array]        %
+% x        : Trajetory                                           [array]  %
+% v        : Velocity                                            [array]  %
+% e        : Internal energy                                     [array]  %
 %                                                                         %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
