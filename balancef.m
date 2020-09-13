@@ -15,14 +15,14 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % INPUT:                                                                  %
 %                                                                         %
-% alpha   : Correction parameter                           [array]        %           
-% neighbor: Neighbors number and identification            [array]        %
-% N       : Total particles number                         [int value]    %  
-% part    : Properties of the particles                    [struct array] %
+% N       : Total particles number                               [int]    % 
+% alpha   : Correction parameter                                 [array]  %           
+% neighbor: Neighbors number and identification                  [array]  %
+% part    : Properties of the particles                          [struct] %
 %                                                                         %
 % OUTPUT: --------------------------------------------------------------- %
 %                                                                         %
-% D       : Derivatives of the properties of the particles [struct array] %   
+% D       : Derivatives of the properties of the particles       [struct] %   
 %                                                                         %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
