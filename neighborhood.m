@@ -27,7 +27,7 @@
 %                                                                         %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-function [neighbor] = neighborhood(part, N,alpha)
+function neighbor = neighborhood(part, N,alpha)
 
     neighbor = zeros(N,5); % Firts columm alocats the neighbors number and 
                            % the other columms alocat the neighbor ID.
