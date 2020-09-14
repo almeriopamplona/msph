@@ -45,7 +45,7 @@ clear; close all; clc; tic
 % PARTICLES CREATION
 
   [particle, N, numRealParticles, numGhostParticles] = ...
-                                 creation(nx, ny, Lx, Ly, optMaterial);
+                     rectangularPlateCreation(nx, ny, Lx, Ly, optMaterial);
 
   xi          = 9*h^(1/3);                % numerical height       [m]       
   particle.m  = particle.rho*Lx*Ly*xi/N;  % particle mass          [kg]
